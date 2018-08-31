@@ -12,11 +12,11 @@ exports[`should render ExpenseListItem with passed in expense 1`] = `
   </h3>
   <p>
     Total amount: 
-    4500
+    $45.00
   </p>
   <p>
     Created at:
-    345600000
+    January 4th, 1970
   </p>
 </div>
 `;
