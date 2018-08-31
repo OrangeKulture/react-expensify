@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseListItem with passed in expense 1`] = `
+<div>
+  <h3>
+    <Link
+      replace={false}
+      to="edit/3"
+    >
+      Credit Card
+    </Link>
+  </h3>
+  <p>
+    Total amount: 
+    4500
+  </p>
+  <p>
+    Created at:
+    345600000
+  </p>
+</div>
+`;
