@@ -13,11 +13,7 @@ export class AddExpensePage extends React.Component {
       <div>
         <h2>Add Expense</h2>
         <ExpenseForm 
-          onSubmit={(expense) => {
-            props.dispatch(addExpense(expense));
-            this.props.addExpense(expense)
-            this.props.history.push('/');
-          }}
+          onSubmit={this.onSubmit}
         />
       </div>
     );
