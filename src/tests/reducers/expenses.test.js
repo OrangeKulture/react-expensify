@@ -75,6 +75,7 @@ test('should not edit an expense id the id is not found', () => {
   expect(state).toEqual(expenses);
 })
 
+// ------------------------------------------------------- //
 
 test('should set expenses', () => {
   const action = {
